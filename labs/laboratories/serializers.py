@@ -1,8 +1,5 @@
-
 from rest_framework import serializers
-from labs.models import Labs, Experiments, Researchers, Materials
-
-
+from .models import Lab, Experiment, Expert, Sample
 
 class LabSerializer(serializers.ModelSerializer):
     class Meta:
