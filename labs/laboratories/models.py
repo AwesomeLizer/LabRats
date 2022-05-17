@@ -43,7 +43,7 @@ class Experiment(models.Model):
     expert_id = models.ManyToManyField(Expert)
 
     def __str__(self):
-        return self.lab_id.username + ' - ' + self.sample_id.username
+        return self.lab_id.title + ' - ' + self.sample_id.name
 
     class Meta:
         verbose_name = 'Эксперимент'
