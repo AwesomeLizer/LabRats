@@ -2,3 +2,7 @@ venv/
 venv/*
 .idea/
 .idea/*
+labs/laboratories/__pycache__/
+labs/laboratories/__pycache__/*
+labs/labs_project/__pycache__/
+labs/labs_project/__pycache__/*
