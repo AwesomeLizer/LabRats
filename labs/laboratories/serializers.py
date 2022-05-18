@@ -14,13 +14,13 @@ class ExperimentSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class ExpertSerializerForPost(serializers.ModelSerializer):
+class ExpertSerializer(serializers.ModelSerializer):
     class Meta:
         model = Expert
         fields = '__all__'
 
 
-class SampleSerializerForPost(serializers.ModelSerializer):
+class SampleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sample
         fields = '__all__'
